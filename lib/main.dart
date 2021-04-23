@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           leading: Icon(Icons.account_circle),
           backgroundColor: Colors.black,
-          title: Text("Profile"),
+          title: Text(
+            "Profile",
+            style: TextStyle(fontSize: 20),
+          ),
         ),
         body: Center(
           child: Column(
